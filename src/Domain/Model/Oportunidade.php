@@ -24,24 +24,18 @@ class Oportunidade
 
     /**
      * @var \DateTime
-     * @Serializer\SerializedName("periodoInicial")
-     * @Serialize\Type("DateTime<'d/m/y'>")
      *
      */
     private $periodoInicial;
 
     /**
      * @var \DateTime
-     * @Seruakuzer\SerializedName("periodoFinal")
-     * @serializer\Type("DateTime<'d/m/y>")
      */
     private $periodoFinal;
 
     /**
      * Oportunidade constructor.
      * @param string $descricao
-     * @param \DateTime $periodoInicial
-     * @param \DateTime $periodoFinal
      */
     public function __construct(
         $descricao,

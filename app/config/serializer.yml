@@ -6,3 +6,7 @@ jms_serializer:
 
     metadata:
         auto_detetion: true
+        directories:
+           DomainModel:
+               namespace_prefix: Domain\Model
+               path: 'Kernel.root_dir/Resources/infrastructure/serializer/jms'

@@ -1,0 +1,7 @@
+<serializer>
+    <class name="Domain\Model\oportunidade">
+        <property name="descricao" type="string" groups="default"/>
+        <property name="periodoInicial" type="DataTime" groups="default"/>
+        <property name="periodoFinal" type="DataTime" groups="default"/>
+    </class>
+</serializer>
